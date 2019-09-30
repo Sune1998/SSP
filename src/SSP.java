@@ -1,5 +1,7 @@
 public class SSP {
+
    int slaa(Hannd a, Hannd b) {
+       while (true) {
 
        int resultat = -1;
        //first hanf rock
@@ -18,13 +20,20 @@ public class SSP {
        }
        //first hand papir
        if ( a == Hannd.PAPIR) {
-           if (b == Hannd.STEN) {resultat = 1; }
-           if (b == Hannd.SAKS) {resultat = 2; }
-           if (b == Hannd.PAPIR) {resultat = 0; }
-
+           if (b == Hannd.STEN) {
+               resultat = 1;
+           }
+           if (b == Hannd.SAKS) {
+               resultat = 2;
+           }
+           if (b == Hannd.PAPIR) {
+               resultat = 0;
+           }
+       }
+return resultat;
        }
 
-       return resultat;
+
    }
 
     // TODO flereKampe() {}
