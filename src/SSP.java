@@ -1,7 +1,7 @@
 public class SSP {
 
    int slaa(Hannd a, Hannd b) {
-       while (true) {
+
 
        int resultat = -1;
        //first hanf rock
@@ -34,7 +34,7 @@ return resultat;
        }
 
 
-   }
+
 
     // TODO flereKampe() {}
 
